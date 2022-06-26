@@ -1,0 +1,275 @@
+/* This is the CSS file for index.html */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* Styling of main section */
+.main{
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main .overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main .overlay .cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .overlay .cont h1{
+  font-size: 66px;
+  color: white;
+}
+
+.main .overlay .cont button{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  padding: 18px 40px;
+  margin: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main .overlay .cont button:hover{
+  background-color: white;
+  color: black;
+}
+/* Styling of main ended */
+
+/* Styling of about section */
+.about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h2{
+  font-size: 44px;
+  margin-top: 60px;
+}
+
+.about p{
+  text-align: left;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+.about .image{
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .image img{
+  width: 70%;
+  margin: 30px;
+}
+/* Styling of about ended */
+
+/* Styling of menu section */
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #F8F8F8;
+}
+
+.menu h2{
+  font-size: 44px;
+}
+
+.menu .menu-div{
+  margin-top: 50px;
+  width: 50%;
+}
+
+.menu .menu-div .first{
+  width: 100%;
+}
+
+.menu .menu-div .first .light{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.menu .menu-div .first .options{
+  width: 100%;
+  background-color: #E8E8E8;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.menu .menu-div .first .options img{
+  width: 12%;
+  position: relative;
+}
+
+.menu .menu-div .first .options h2{
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.menu .menu-div .second{
+  margin-top: 50px;
+}
+
+.menu .menu-div .second .drinks{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.menu .menu-div .second .options{
+  width: 100%;
+  background-color: #E8E8E8;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.menu .menu-div .second .options img{
+  width: 12%;
+  position: relative;
+}
+
+.menu .menu-div .second .options h2{
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+.menu .menu-div .third{
+  margin-top: 50px;
+}
+
+.menu .menu-div .third .desserts{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.menu .menu-div .third .options{
+  width: 100%;
+  background-color: #E8E8E8;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.menu .menu-div .third .options img{
+  width: 12%;
+  position: relative;
+}
+
+.menu .menu-div .third .options h2{
+  font-size: 24px;
+  margin-left: 30px;
+}
+/* Styling of menu ended */
+
+/* Styling of contact section */
+.contact{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.contact h2{
+  font-size: 40px;
+}
+
+.contact .box{
+  width: 60%;
+  background-color: #F5F5F5;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contact .box .one{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .box .one input{
+  height: 36px;
+  width: 28%;
+  border: 2px solid gray;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #F8F8F8;
+  margin: 5px;
+}
+
+.contact .box .one input::placeholder{
+  text-align: center;
+}
+
+.contact .box textarea{
+  border: 2px solid gray;
+  background-color: #F8F8F8;
+  margin-top: 10px;
+  width: 85%;
+  padding: 10px;
+}
+/* Styling of contact ended */
+
+/* Styling of footer */
+footer{
+  width: 100%;
+  margin: 10px;
+}
+
+footer p{
+  font-size: 18px;
+  text-align: center;
+}
+
+footer p a{
+  text-decoration: none;
+}
