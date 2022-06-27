@@ -1,0 +1,97 @@
+/* This CSS file is used for making the website responsive */
+
+@media only screen and (max-width: 990px)
+{
+  .main .overlay .cont h1{
+    font-size: 56px;
+  }
+}
+
+@media only screen and (max-width: 870px)
+{
+    .contact .box .one{
+      flex-direction: column;
+    }
+
+    .contact .box .one input{
+      width: 60%;
+    }
+
+    .menu .menu-div .first .options h2{
+      font-size: 20px;
+    }
+
+    .menu .menu-div .second .options h2{
+      font-size: 20px;
+    }
+
+    .menu .menu-div .third .options h2{
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 760px)
+{
+  .main .overlay .cont h1{
+    font-size: 48px;
+  }
+
+  .about h2{
+    font-size: 40px;
+  }
+
+  .about p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .menu .menu-div{
+    width: 65%;
+  }
+
+  .contact .box{
+    width: 80%;
+  }
+
+  .contact .box input[type=submit]{
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 400px)
+{
+  .main .overlay .cont h1{
+    font-size: 40px;
+  }
+
+  .about h2{
+    font-size: 36px;
+  }
+
+  .about p{
+    font-size: 17px;
+    width: 64%;
+  }
+
+  .menu h2{
+    font-size: 36px;
+  }
+
+  .menu{
+    margin-left: -60px;
+  }
+
+  .contact h2{
+    font-size: 36px;
+  }
+
+  .contact{
+    margin-left: 0px;
+  }
+
+  .contact .box input[type=submit]{
+    width: 40%;
+  }
+}

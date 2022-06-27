@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body{
   overflow-x: hidden;
 }
@@ -37,23 +41,8 @@ body{
 .main .overlay .cont h1{
   font-size: 66px;
   color: white;
-}
-
-.main .overlay .cont button{
-  border: 2px solid white;
-  background-color: transparent;
-  color: white;
-  font-size: 14px;
-  padding: 18px 40px;
-  margin: 40px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.main .overlay .cont button:hover{
-  background-color: white;
-  color: black;
+  width: 70%;
+  text-align: center;
 }
 /* Styling of main ended */
 
@@ -102,6 +91,7 @@ body{
   flex-direction: column;
   padding: 50px;
   background-color: #F8F8F8;
+  margin-left: -80px;
 }
 
 .menu h2{
@@ -131,6 +121,10 @@ body{
   padding: 10px 10px;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.menu .menu-div .first .options:hover{
+  box-shadow: 2px 2px 8px 4px gray;
 }
 
 .menu .menu-div .first .options img{
@@ -163,6 +157,10 @@ body{
   margin-top: 10px;
 }
 
+.menu .menu-div .second .options:hover{
+  box-shadow: 2px 2px 8px 4px gray;
+}
+
 .menu .menu-div .second .options img{
   width: 12%;
   position: relative;
@@ -193,6 +191,10 @@ body{
   margin-top: 10px;
 }
 
+.menu .menu-div .third .options:hover{
+  box-shadow: 2px 2px 8px 4px gray;
+}
+
 .menu .menu-div .third .options img{
   width: 12%;
   position: relative;
@@ -212,6 +214,7 @@ body{
   justify-content: center;
   flex-direction: column;
   margin: 50px;
+  margin-left: -6px;
 }
 
 .contact h2{
@@ -244,6 +247,7 @@ body{
   border-radius: 5px;
   background-color: #F8F8F8;
   margin: 5px;
+  text-align: center;
 }
 
 .contact .box .one input::placeholder{
@@ -256,6 +260,23 @@ body{
   margin-top: 10px;
   width: 85%;
   padding: 10px;
+  outline: 0;
+  text-align: center;
+}
+
+.contact .box input[type=submit]{
+  margin: 40px;
+  height: 40px;
+  width: 20%;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+}
+
+.contact .box input[type=submit]:hover{
+  background-color: black;
+  color: white;
 }
 /* Styling of contact ended */
 
